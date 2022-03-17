@@ -9,7 +9,7 @@ export default function IndexPage() {
       </Head>
       Hello World.{" "}
       <Link href="/about">
-        <p>Website in construction my friend</p>
+        <p>Website in construction my dear friend</p>
       </Link>
     </div>
   );
