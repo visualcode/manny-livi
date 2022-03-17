@@ -1,7 +1,10 @@
 module.exports = {
-  content: [],
-  theme: {
-    extend: {},
+  purge: {
+    enabled: true,
+    content: ["./pages/**/*.js"]
   },
-  plugins: [],
-}
+  theme: {
+    extend: {}
+  },
+  plugins: []
+};
