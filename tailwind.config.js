@@ -4,7 +4,11 @@ module.exports = {
     content: ["./pages/**/*.js"]
   },
   theme: {
-    extend: {}
+    extend: {
+      fontFamily: {
+        manrope: 'Manrope, serif'
+      }
+    },
   },
   plugins: []
 };
