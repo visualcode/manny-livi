@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html>
       <Head />
-      <body className="font-manrope">
+      <body className="font-manrope bg-surface">
         <Main />
         <NextScript />
       </body>
