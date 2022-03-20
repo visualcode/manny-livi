@@ -3,7 +3,7 @@ module.exports = {
     enabled: true,
     content: ["./pages/**/*.js"]
   },
-  darkMode: 'media',
+
   theme: {
     extend: {
       fontFamily: {
