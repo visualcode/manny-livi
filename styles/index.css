@@ -35,7 +35,7 @@
     }
     /* Apply custom font to all the Html */
     html {
-        @apply font-manrope text-primary;
+        @apply font-manrope bg-surface-l text-primary-l dark:bg-surface-d dark:text-primary-d;
     }
 }
 

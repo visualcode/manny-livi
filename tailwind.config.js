@@ -3,6 +3,7 @@ module.exports = {
     enabled: true,
     content: ["./pages/**/*.js"]
   },
+  darkMode: 'media',
   theme: {
     extend: {
       fontFamily: {
@@ -26,23 +27,34 @@ module.exports = {
         '11': '8.313rem'
       },
       textColor: {
-        'text-primary': '#2F3440',
-        'text-onPrimary': '#F2EDE4',
-        'text-secondary': '666A73',
-        'text-onSecondary': '#F2EDE4',
-        'text-tertiary': '#D04506',
+        'text-primary-l': '#2F3440',
+        'text-onPrimary-l': '#F2EDE4',
+        'text-secondary-l': '666A73',
+        'text-onSecondary-l': '#F2EDE4',
+        'text-tertiary-l': '#D04506',
       },
       colors: {
-        'primary': '#2F3440',
-        'onPrimary': '#F2EDE4',
-        'secondary': '#666A73',
-        'onSecondary': 'F2EDE4',
-        'tertiary': '#D04506',
-        'onTertiary': '#FDFDFC',
-        'surface': '#F2EDE4',
-        'onSurface': '2F3440',
-        'onSurfaceInverse': '#D9D1C7',
-        'outline': '#D9D1C7'
+        'primary-l': '#2F3440',
+        'onPrimary-l': '#F2EDE4',
+        'secondary-l': '#666A73',
+        'onSecondary-l': 'F2EDE4',
+        'tertiary-l': '#D04506',
+        'onTertiary-l': '#FDFDFC',
+        'surface-l': '#F2EDE4',
+        'onSurface-l': '#2F3440',
+        'onSurfaceInverse-l': '#D9D1C7',
+        'outline-l': '#D9D1C7',
+
+        'primary-d': '#F2EDE4',
+        'onPrimary-d': '#2F3440',
+        'secondary-d': '#A6B1B9',
+        'onSecondary-d': '#020203',
+        'tertiary-d': '#FF763A',
+        'onTertiary-d': '#020203',
+        'surface-d': '#2F3440',
+        'onSurface-d': '#F2EDE4',
+        'onSurfaceInverse-d': '#585D6B',
+        'outline-d': '#585D6B',
       }
     },
   },
