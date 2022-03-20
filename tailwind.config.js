@@ -34,6 +34,7 @@ module.exports = {
         'text-tertiary-l': '#D04506',
       },
       colors: {
+        /* Light Mode colours */
         'primary-l': '#2F3440',
         'onPrimary-l': '#F2EDE4',
         'secondary-l': '#666A73',
@@ -44,7 +45,7 @@ module.exports = {
         'onSurface-l': '#2F3440',
         'onSurfaceInverse-l': '#D9D1C7',
         'outline-l': '#D9D1C7',
-
+        /* Dark Mode colours */
         'primary-d': '#F2EDE4',
         'onPrimary-d': '#2F3440',
         'secondary-d': '#A6B1B9',
