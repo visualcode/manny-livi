@@ -22,6 +22,16 @@ module.exports = {
         'paragraphMedium': '1rem',
         'paragraphSmall': '0.889rem'
       },
+      lineHeight: {
+        '11': '8.313rem'
+      },
+      textColor: {
+        'text-primary': '#2F3440',
+        'text-onPrimary': '#F2EDE4',
+        'text-secondary': '666A73',
+        'text-onSecondary': '#F2EDE4',
+        'text-tertiary': '#D04506',
+      },
       colors: {
         'primary': '#2F3440',
         'onPrimary': '#F2EDE4',
@@ -36,5 +46,8 @@ module.exports = {
       }
     },
   },
-  plugins: []
+  plugins: [
+    require('tailwindcss')('./tailwind.config.js'),
+    require('autoprefixer')
+  ]
 };

@@ -35,6 +35,12 @@
     }
     /* Apply custom font to all the Html */
     html {
-        @apply font-manrope;
-    }  
+        @apply font-manrope text-primary;
+    }
 }
+
+/* @layer components {
+    .display-large {
+        @apply text-displayLarge font-black tracking-tighter leading-11;
+    }
+} */
