@@ -4,7 +4,7 @@ import Head from "next/head";
 export default function IndexPage() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Head>
         <title>Hey you</title>
       </Head>
@@ -12,7 +12,7 @@ export default function IndexPage() {
       <Link href="/about">
         <p className="text-normal font-regular leading-4">Site under construction</p>
       </Link>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
