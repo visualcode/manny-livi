@@ -5,8 +5,8 @@ const Navbar = () => {
         <nav>
             {
                 <div className="">
-                    <h1>Livi.<span className=''>design</span></h1>
-                    <h2>London, UK / Remote</h2>
+                    <span>Livi<span className=''>.</span><span className=''>design</span></span>
+                    <span>London, UK / Remote</span>
                 </div>
             }
         </nav>
