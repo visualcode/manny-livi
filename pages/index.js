@@ -1,6 +1,5 @@
 import Link from "next/link"
 import Head from "next/head"
-import { animate } from "motion"
 
 export default function IndexPage() {
   return (
