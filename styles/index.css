@@ -35,7 +35,7 @@
     }
     /* Apply custom font to all the Html */
     html {
-        @apply font-serif bg-surface-l text-primary-l dark:bg-surface-d dark:text-primary-d;
+        @apply font-sans bg-surface-l text-primary-l dark:bg-surface-d dark:text-primary-d;
     }
     a {
         @apply underline underline-offset-4;

@@ -19,8 +19,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: "font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif",
-        serif: "-apple-system-ui-serif, ui-serif, 'Georgia', serif",
+        sans: "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif",
+        // serif: "-apple-system-ui-serif, ui-serif, 'Georgia', serif",
       },
       fontSize: {
         'displayXLarge': '4.3rem',
@@ -40,18 +40,29 @@ module.exports = {
         'introSmall': '1.2rem'
       },
       lineHeight: {
-        '0': '4.8rem',
-        '1': '3.6rem',
-        '2': '2.8rem',
-        '3': '2.4rem',
-        '4': '2rem',
-        '5': '1.6rem',
-        '6': '1.2rem'
+        '0': '1em',
+        '1': '1.2em',
+        '2': '1.125em',
+        '3': '1.11em',
+        '4': '1.115em',
+        '5': '1.388em',
+        '6': '1.333em',
+        '7': '1.71em',
+        '8': '1.6em',
+        '9': '1.43em',
       },
       letterSpacing: {
         tightest: '-1.33px',
         tighter: '-1.06px',
         tight: '-0.85px',
+        medium: '-0.71px',
+        large: '-0.58px',
+        xlarge: '-0.45px',
+        xxlarge: '-0.31px',
+        xxxlarge: '-0.15',
+        xxxxlarge: '0.38px',
+        normal: '0'
+
       },
       textColor: {
         /* Light Mode colours */
