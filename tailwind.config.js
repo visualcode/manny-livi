@@ -1,37 +1,71 @@
 module.exports = {
   content: {
     enabled: true,
-    content: ["./pages/**/*.js"]
+    content: [
+      "./pages/**/*.js",
+      "./comps/**/*.js"
+    ]
   },
 
   theme: {
+    screens: {
+      xxs: '320px',
+      xs: '480px',
+      sm: '568px',
+      md: '768px',
+      lg: '992px',
+      xl: '1312px',
+      xxl: '1440px'
+    },
     extend: {
       fontFamily: {
-        manrope: 'Manrope, serif'
+        sans: "font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif",
+        serif: "-apple-system-ui-serif, ui-serif, 'Georgia', serif",
       },
       fontSize: {
-        'displayLarge': '8.332rem',
-        'displayMedium': '6.583rem',
-        'displaySmall': '5.202rem',
-        'headingLarge': '3.247rem',
-        'headingMedium': '2.566rem',
-        'headingSmall': '2.027rem',
-        'labelLarge': '0.889rem',
-        'labelMedium': '0.79rem',
-        'labelSmall': '0.702rem',
-        'paragraphLarge': '1.125rem',
-        'paragraphMedium': '1rem',
-        'paragraphSmall': '0.889rem'
+        'displayXLarge': '4.3rem',
+        'displayLarge': '3.583rem',
+        'displayMedium': '2.986rem',
+        'displaySmall': '2.488rem',
+        'displayXSmall': '2.074rem',
+        'headingMedium': '1.44rem',
+        'headingSmall': '1.2rem',
+        'headingXSmall': '0.694rem',
+        'bodyLarge': '1rem',
+        'bodySmall': '1.2rem',
+        'bodyXSmall': '0.694rem',
+        'linkLarge': '1rem',
+        'linkSmall': '0.833rem',
+        'introMedium': '1.44rem',
+        'introSmall': '1.2rem'
       },
       lineHeight: {
-        '11': '8.313rem'
+        '0': '4.8rem',
+        '1': '3.6rem',
+        '2': '2.8rem',
+        '3': '2.4rem',
+        '4': '2rem',
+        '5': '1.6rem',
+        '6': '1.2rem'
+      },
+      letterSpacing: {
+        tightest: '-1.33px',
+        tighter: '-1.06px',
+        tight: '-0.85px',
       },
       textColor: {
+        /* Light Mode colours */
         'text-primary-l': '#2F3440',
         'text-onPrimary-l': '#F2EDE4',
         'text-secondary-l': '666A73',
         'text-onSecondary-l': '#F2EDE4',
         'text-tertiary-l': '#D04506',
+        /* Dark Mode colours */
+        'text-primary-d': '#F2EDE4',
+        'text-onPrimary-d': '#F2EDE4',
+        'text-secondary-d': '666A73',
+        'text-onSecondary-d': '#F2EDE4',
+        'text-tertiary-d': '#D04506',
       },
       colors: {
         /* Light Mode colours */

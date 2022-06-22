@@ -35,12 +35,21 @@
     }
     /* Apply custom font to all the Html */
     html {
-        @apply font-manrope bg-surface-l text-primary-l dark:bg-surface-d dark:text-primary-d;
+        @apply font-serif bg-surface-l text-primary-l dark:bg-surface-d dark:text-primary-d;
+    }
+    a {
+        @apply underline underline-offset-4;
+    }
+    a:hover {
+        @apply no-underline;
     }
 }
 
-/* @layer components {
-    .display-large {
-        @apply text-displayLarge font-black tracking-tighter leading-11;
+@layer components {
+    .link {
+        @apply underline underline-offset-8;
     }
-} */
+    .link:hover {
+        @apply no-underline;
+    }
+}

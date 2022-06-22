@@ -4,10 +4,11 @@ const Navbar = () => {
     return (
         <nav>
             {
-                <div className="">
-                    <span>Livi<span className=''>.</span><span className=''>design</span></span>
-                    <span>London, UK / Remote</span>
-                </div>
+                <ul>
+                    <li>Hey</li>
+                    <li>You</li>
+                    <li>Amico</li>
+                </ul>
             }
         </nav>
     );
