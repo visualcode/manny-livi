@@ -11,7 +11,7 @@ export default function IndexPage() {
         transition={{ type: 'spring', delay: 0, stifness: 232, Damping: 16, Mass: 1.1 }} 
         id="portrait-pic" className="xl:w-56 xl:h-56 md:w-40 md:h-40 xxs:w-32 xxs:h-32 xxs:row-start-1 drop-shadow-portrait">
         <Image 
-          src="/public/manny-liviportrait-picture.png" 
+          src="/manny-liviportrait-picture.png" 
           alt="My Portrait image"
           width={224}
           height={224}
