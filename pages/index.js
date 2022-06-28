@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function IndexPage() {
   return (
@@ -8,8 +9,16 @@ export default function IndexPage() {
         initial={{ opacity:0, scale:0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ type: 'spring', delay: 0, stifness: 232, Damping: 16, Mass: 1.1 }} 
-        id="portrait-pic" className="xl:w-56 xl:h-56 md:w-40 md:h-40 xxs:w-32 xxs:h-32 rounded-full bg-white xxs:row-start-1">
-        <img src="" alt="" />
+        id="portrait-pic" className="xl:w-56 xl:h-56 md:w-40 md:h-40 xxs:w-32 xxs:h-32 xxs:row-start-1 drop-shadow-portrait">
+        <Image 
+          src="/../public/manny-liviportrait-picture.png" 
+          alt="My Portrait image"
+          width={224}
+          height={224}
+          layout='responsive'
+          objectFit="cover"
+          className="rounded-full"
+        />
       </motion.div>
       <section id="hero-title" className="xxs:row-start-2 xxs:auto-cols-auto md:row-start-1 md:auto-cols-auto">
         <header>

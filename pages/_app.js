@@ -1,14 +1,15 @@
 // import App from 'next/app'
 import Layout from '../comps/Layout';
 import '../styles/index.css';
-import Head from "next/head";
+import Head from 'next/head';
+import Image from 'next/image';
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
         <title>Manny Livi - UI Designer, Visual Designer and Design System Specialist</title>
-        <meta name="description" content="" />
+        <meta name="description" content="UI Designer, Visual Designer and Design System Strategist" />
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website"></meta>
         <meta property="og:url" content="https://www.mannylivi.com/"></meta>

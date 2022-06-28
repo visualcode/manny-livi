@@ -100,6 +100,15 @@ module.exports = {
         'onSurface-d': '#F2EDE4',
         'onSurfaceInverse-d': '#585D6B',
         'outline-d': '#585D6B',
+      },
+      dropShadow: {
+        'portrait': [
+          '0px 29px 12px rgba(0, 0, 0, 0.02)', 
+          '0px 16px 10px rgba(0, 0, 0, 0.06)',
+          '0px 7px 7px rgba(0, 0, 0, 0.1)', 
+          '0px 2px 4px rgba(0, 0, 0, 0.12)', 
+          '0px 0px 0px rgba(0, 0, 0, 0.12)'
+        ]
       }
     },
   },
