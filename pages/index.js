@@ -18,6 +18,7 @@ export default function IndexPage() {
           layout='responsive'
           objectFit="cover"
           className="rounded-full"
+          priority='true'
         />
       </motion.div>
       <section id="hero-title" className="xxs:row-start-2 xxs:auto-cols-auto md:row-start-1 md:auto-cols-auto">
