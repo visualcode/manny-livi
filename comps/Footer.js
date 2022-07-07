@@ -26,7 +26,7 @@ const Footer = () => {
             animate='visible'
             className="mx-auto grid xxs:grid-flow-row xxs:auto-cols-fr xxs:grid-cols-1 xxs:grid-rows-1 xxs:gap-y-8 xxs:pl-6 xxs:pr-6 xxs:mt-16 xxs:mb-8 xs:mt-16 xs:mb-16 xs:pl-16 xs:pr-16 lg:mt-32 lg:mb-20 lg:pl-32 lg:pr-32 xxl:container">
             <ul id="social-links" className="inline-flex xxs:gap-4">
-                <li><a href="" className="link xxs:text-bodySmall">Get in touch</a></li>
+                <li><a href="mailto:emanuele.livi@gmail.com?subject=Request from mannylivi.com&body=" className="link xxs:text-bodySmall">Get in touch</a></li>
                 <li><a href="https://twitter.com/emanuelelivi" className="link">Twitter</a></li>
                 <li><a href="https://www.linkedin.com/in/liviemanuele/" className="link">Linkedin</a></li>
             </ul>
