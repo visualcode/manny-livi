@@ -30,7 +30,7 @@ const Footer = () => {
                 <li><a href="https://twitter.com/emanuelelivi" className="link">Twitter</a></li>
                 <li><a href="https://www.linkedin.com/in/liviemanuele/" className="link">Linkedin</a></li>
             </ul>
-            <div id="credit" className="xxs:leading-9 xxs:tracking-7"><span className="row-start-1 text-secondary-l dark:text-secondary-d">2022 © manny livi.</span> This site was designed in figma, Next Js, tailwindcss & deployed via Vercel. </div>
+            <div id="credit" className="xxs:leading-9 xxs:tracking-7"><span className="row-start-1 text-secondary-l dark:text-secondary-d">2022 © manny livi.</span> This site was designed in Figma, Next Js, Tailwindcss & deployed via Vercel. </div>
         </motion.footer>
     );
 }
