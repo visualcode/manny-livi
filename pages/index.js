@@ -31,7 +31,7 @@ export default function IndexPage() {
       </motion.div>
       <section
         id="hero-title"
-        className="xxs:row-start-2 xxs:auto-cols-auto md:row-start-1 md:auto-cols-auto"
+        className="xxs:row-start-1 xxs:auto-cols-auto md:row-start-1 md:auto-cols-auto"
       >
         <header>
           <motion.h1
@@ -44,7 +44,7 @@ export default function IndexPage() {
               Damping: 30,
               Mass: 1
             }}
-            className="font-bold text-primary-l dark:text-primary-d xxs:text-displaySmall xxs:leading-2 xxs:tracking-3 xs:text-displayMedium xs:tracking-1 xs:leading-0 md:text-displayLarge md:leading-0 md:tracking-1 lg:text-displayXLarge lg:leading-3 lg:tracking-0 xxl:text-displayXLarge"
+            className="font-bold text-primary-l dark:text-primary-d xxs:text-displaySmall xxs:leading-2 xxs:tracking-3 xs:text-displayMedium xs:tracking-1 xs:leading-1 md:text-displayLarge md:leading-0 md:tracking-1 lg:text-displayXLarge lg:leading-3 lg:tracking-0 xxl:text-displayXLarge"
           >
             Manny Livi: UI and digital product designer
           </motion.h1>
