@@ -67,7 +67,8 @@ function MyApp({ Component, pageProps }) {
         ></link>
         <meta name="msapplication-TileColor" content="#603cba"></meta>
         <meta name="theme-color" content="#ffffff"></meta>
-        <script async src="https://cdn.splitbee.io/sb.js"></script>
+        {/* <script async src="https://cdn.splitbee.io/sb.js"></script> */}
+        <script async data-api="/_hive" src="/bee.js"></script>
       </Head>
       <Layout>
         <Component {...pageProps} />
