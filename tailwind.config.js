@@ -26,6 +26,20 @@ module.exports = {
         'displayLarge': '3.815rem',
         'displaySmall': '3.052rem',
         'displayXSmall': '2.441rem',
+        'h1Large': '3.052rem',
+        'h1Small': '2.441rem',
+        'h2Large': '2.441rem',
+        'h2Small': '1.563rem',
+        'h3Large': '1.563rem',
+        'h3Small': '1.25rem',
+        'h4Large': '1.25rem',
+        'h4Small': '1rem',
+        'intro': '1.563rem',
+        'introSmall': '1.25rem',
+        'brand': '1.25rem',
+        'paragraph': '1.25rem',
+        'body': '1rem',
+        'bodySmall': '0.875rem',
       },
       lineHeight: {
         '0': '1.714em',
@@ -78,15 +92,15 @@ module.exports = {
         'onSurfaceInverse-d': '#585D6B',
         'outline-d': '#585D6B',
       },
-      dropShadow: {
-        'portrait': [
-          '0px 29px 12px rgba(0, 0, 0, 0.02)', 
-          '0px 16px 10px rgba(0, 0, 0, 0.06)',
-          '0px 7px 7px rgba(0, 0, 0, 0.1)', 
-          '0px 2px 4px rgba(0, 0, 0, 0.12)', 
-          '0px 0px 0px rgba(0, 0, 0, 0.12)'
-        ]
-      }
+    //   dropShadow: {
+    //     'portrait': [
+    //       '0px 29px 12px rgba(0, 0, 0, 0.02)', 
+    //       '0px 16px 10px rgba(0, 0, 0, 0.06)',
+    //       '0px 7px 7px rgba(0, 0, 0, 0.1)', 
+    //       '0px 2px 4px rgba(0, 0, 0, 0.12)', 
+    //       '0px 0px 0px rgba(0, 0, 0, 0.12)'
+    //     ]
+    //   }
     },
   },
   plugins: [
