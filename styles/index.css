@@ -38,7 +38,7 @@
   }
   /* Apply custom font to all the Html */
   html {
-    @apply font-sans surface text-primary-l dark:surface-d dark:text-primary-d;
+    @apply font-sans main-bg text-primary dark:main-bg-d dark:text-primary-d;
   }
   a {
     @apply underline underline-offset-4;

@@ -61,27 +61,22 @@ module.exports = {
         "text-secondary-d": "#ADADAD",
         "text-onColour-d": "#222222"
       },
-      colors: {
+      surfaceColor: {
         /* Light Mode colours */
         "main-bg": "#FFFFFF",
+        /* Dark Mode colours */
+        "main-bg-d": "#212121"
+      },
+      borderColor: {
+        /* Light Mode colours */
         "link-rest": "#737373",
         "link-hover": "#D4D4D4",
         "border-divider": "#D4D4D4",
         /* Dark Mode colours */
-        "main-bg-d": "#212121",
         "link-rest-d": "#D4D4D4",
         "link-hover-d": "#737373",
         "border-divider-d": "#737373"
       }
-      //   dropShadow: {
-      //     'portrait': [
-      //       '0px 29px 12px rgba(0, 0, 0, 0.02)',
-      //       '0px 16px 10px rgba(0, 0, 0, 0.06)',
-      //       '0px 7px 7px rgba(0, 0, 0, 0.1)',
-      //       '0px 2px 4px rgba(0, 0, 0, 0.12)',
-      //       '0px 0px 0px rgba(0, 0, 0, 0.12)'
-      //     ]
-      //   }
     }
   },
   plugins: [
