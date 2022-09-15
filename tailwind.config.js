@@ -67,13 +67,13 @@ module.exports = {
       },
       colors: {
         /* Light Mode colours */
-        surface: "#FFFFFF",
+        "surface": "#FFFFFF",
         "text-primary": "#737373",
         "text-secondary": "#ADADAD",
         "text-onColour": "#D4D4D4",
         "link-rest": "#737373",
         "link-hover": "#D4D4D4",
-        divider: "#D4D4D4",
+        "divider": "#D4D4D4",
         /* Dark Mode colours */
         "surface-d": "#212121",
         "text-primary-d": "#737373",
