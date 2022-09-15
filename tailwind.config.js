@@ -53,35 +53,25 @@ module.exports = {
       },
       textColor: {
         /* Light Mode colours */
-        "text-primary-l": "#2F3440",
-        "text-onPrimary-l": "#F2EDE4",
-        "text-secondary-l": "666A73",
-        "text-onSecondary-l": "#F2EDE4",
-        "text-tertiary-l": "#D04506",
-        /* Dark Mode colours */
-        "text-primary-d": "#F2EDE4",
-        "text-onPrimary-d": "#F2EDE4",
-        "text-secondary-d": "666A73",
-        "text-onSecondary-d": "#F2EDE4",
-        "text-tertiary-d": "#D04506"
-      },
-      colors: {
-        /* Light Mode colours */
-        "surface": "#FFFFFF",
         "text-primary": "#737373",
         "text-secondary": "#ADADAD",
         "text-onColour": "#D4D4D4",
-        "link-rest": "#737373",
-        "link-hover": "#D4D4D4",
-        "divider": "#D4D4D4",
         /* Dark Mode colours */
-        "surface-d": "#212121",
         "text-primary-d": "#737373",
         "text-secondary-d": "#ADADAD",
-        "text-onColour-d": "#222222",
+        "text-onColour-d": "#222222"
+      },
+      colors: {
+        /* Light Mode colours */
+        "main-bg": "#FFFFFF",
+        "link-rest": "#737373",
+        "link-hover": "#D4D4D4",
+        "border-divider": "#D4D4D4",
+        /* Dark Mode colours */
+        "main-bg-d": "#212121",
         "link-rest-d": "#D4D4D4",
         "link-hover-d": "#737373",
-        "divider-d": "#737373"
+        "border-divider-d": "#737373"
       }
       //   dropShadow: {
       //     'portrait': [
