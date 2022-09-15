@@ -61,7 +61,7 @@ module.exports = {
         "text-secondary-d": "#ADADAD",
         "text-onColour-d": "#222222"
       },
-      surfaceColor: {
+      backgroundColor: {
         /* Light Mode colours */
         "main-bg": "#FFFFFF",
         /* Dark Mode colours */
