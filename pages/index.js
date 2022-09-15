@@ -3,5 +3,5 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 export default function IndexPage() {
-  return <main className=""></main>;
+  return <main className="display-large">Hey ciao</main>;
 }
