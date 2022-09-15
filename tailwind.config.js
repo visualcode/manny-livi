@@ -20,23 +20,13 @@ module.exports = {
         // serif: "-apple-system-ui-serif, ui-serif, 'Georgia', serif",
       },
       fontSize: {
-        displayLarge: "3.815rem",
-        displaySmall: "3.052rem",
-        displayXSmall: "2.441rem",
-        h1Large: "3.052rem",
-        h1Small: "2.441rem",
-        h2Large: "2.441rem",
-        h2Small: "1.563rem",
-        h3Large: "1.563rem",
-        h3Small: "1.25rem",
-        h4Large: "1.25rem",
-        h4Small: "1rem",
-        intro: "1.563rem",
-        introSmall: "1.25rem",
-        brand: "1.25rem",
-        paragraph: "1.25rem",
-        body: "1rem",
-        bodySmall: "0.875rem"
+        "text-4xl": "3.815rem",
+        "text-3xl": "3.052rem",
+        "text-xl": "2.441rem",
+        "text-l": "1.563rem",
+        "text-m": "1.25rem",
+        "text-sm": "1rem",
+        "text-xs": "0.875rem",
       },
       lineHeight: {
         0: "1.714em",
@@ -51,28 +41,20 @@ module.exports = {
       letterSpacing: {
         0: "0"
       },
-      textColor: {
+      colors: {
         /* Light Mode colours */
+        "main-bg": "#FFFFFF",
         "text-primary": "#737373",
         "text-secondary": "#ADADAD",
         "text-onColour": "#D4D4D4",
-        /* Dark Mode colours */
-        "text-primary-d": "#737373",
-        "text-secondary-d": "#ADADAD",
-        "text-onColour-d": "#222222"
-      },
-      backgroundColor: {
-        /* Light Mode colours */
-        "main-bg": "#FFFFFF",
-        /* Dark Mode colours */
-        "main-bg-d": "#212121"
-      },
-      borderColor: {
-        /* Light Mode colours */
         "link-rest": "#737373",
         "link-hover": "#D4D4D4",
         "border-divider": "#D4D4D4",
         /* Dark Mode colours */
+        "main-bg-d": "#212121",
+        "text-primary-d": "#737373",
+        "text-secondary-d": "#ADADAD",
+        "text-onColour-d": "#222222",
         "link-rest-d": "#D4D4D4",
         "link-hover-d": "#737373",
         "border-divider-d": "#737373"
