@@ -5,14 +5,11 @@ module.exports = {
   },
   theme: {
     screens: {
-      "3xs": "320px",
-      "2xs": "375"
-      // xs: "480px",
-      // sm: "568px",
-      // md: "768px",
-      // lg: "992px",
-      // xl: "1312px",
-      // xxl: "1440px"
+      xs: "320px",
+      sm: "375",
+      md: "600px",
+      lg: "768px",
+      xl: "1440px"
     },
     colors: {
       /* Light Mode colours */
@@ -61,14 +58,12 @@ module.exports = {
       "text-xs": "0.875rem"
     },
     lineHeight: {
-      0: "1.714em",
-      1: "1.6em",
-      2: "1.5em",
-      3: "1.28em",
-      4: "1.2em",
-      5: "1.179em",
-      6: "1.146em",
-      7: "1.024em"
+      0: "4.5rem",
+      1: "3.5rem",
+      2: "2.5rem",
+      3: "2rem",
+      4: "1.5rem",
+      5: "1rem"
     },
     fontWeight: {
       regular: "400",

@@ -64,6 +64,6 @@
     @apply decoration-dotted;
   }
   .display-large {
-    @apply text-text-4xl font-extrabold;
+    @apply text-text-4xl font-extrabold leading-0 text-text-primary;
   }
 }
