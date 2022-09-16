@@ -3,5 +3,11 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 export default function IndexPage() {
-  return <main className="display-large">Hey ciao come stai caro mio</main>;
+  return (
+    <main>
+      <h1 className="xs:display-xsmall sm:display-small">
+        Hey ciao come stai caro mio
+      </h1>
+    </main>
+  );
 }

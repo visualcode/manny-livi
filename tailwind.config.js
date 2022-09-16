@@ -5,24 +5,24 @@ module.exports = {
   },
   theme: {
     screens: {
-      xs: "320px",
-      sm: "375",
-      md: "600px",
-      lg: "768px",
-      xl: "1440px"
+      xs: "20rem",
+      sm: "23.438rem",
+      md: "37.5rem", // 600px
+      lg: "48rem",
+      xl: "90rem"
     },
     colors: {
       /* Light Mode colours */
       "main-bg": "#FFFFFF",
-      "text-primary": "#737373",
-      "text-secondary": "#ADADAD",
-      "text-onColour": "#D4D4D4",
+      "text-primary": "#222222",
+      "text-secondary": "#737373",
+      "text-onColour": "#ADADAD",
       "link-rest": "#737373",
       "link-hover": "#D4D4D4",
       "border-divider": "#D4D4D4",
       /* Dark Mode colours */
       "main-bg-d": "#212121",
-      "text-primary-d": "#737373",
+      "text-primary-d": "#FFFFFF",
       "text-secondary-d": "#ADADAD",
       "text-onColour-d": "#222222",
       "link-rest-d": "#D4D4D4",
@@ -49,13 +49,13 @@ module.exports = {
       // serif: "-apple-system-ui-serif, ui-serif, 'Georgia', serif",
     },
     fontSize: {
-      "text-4xl": "3.815rem",
-      "text-3xl": "3.052rem",
-      "text-xl": "2.441rem",
-      "text-l": "1.563rem",
-      "text-m": "1.25rem",
-      "text-sm": "1rem",
-      "text-xs": "0.875rem"
+      "fontSize-6": "3.815rem",
+      "fontSize-5": "3.052rem",
+      "fontSize-4": "2.441rem",
+      "fontSize-3": "1.563rem",
+      "fontSize-2": "1.25rem",
+      // "fontSize-1": "1rem",tok
+      "fontSize-0": "0.875rem"
     },
     lineHeight: {
       0: "4.5rem",

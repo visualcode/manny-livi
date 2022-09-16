@@ -64,6 +64,54 @@
     @apply decoration-dotted;
   }
   .display-large {
-    @apply text-text-4xl font-extrabold leading-0 text-text-primary;
+    @apply text-fontSize-6 font-extrabold leading-0;
+  }
+  .display-small {
+    @apply text-fontSize-5 font-extrabold leading-1;
+  }
+  .display-xsmall {
+    @apply text-fontSize-4 font-extrabold leading-2;
+  }
+  .h1-large {
+    @apply text-fontSize-5 font-bold leading-1;
+  }
+  .h1-small {
+    @apply text-fontSize-4 font-bold leading-2;
+  }
+  .h2-large {
+    @apply text-fontSize-4 font-bold leading-2;
+  }
+  .h2-small {
+    @apply text-fontSize-3 font-bold leading-3;
+  }
+  .h3-large {
+    @apply text-fontSize-3 font-bold leading-3;
+  }
+  .h3-small {
+    @apply text-fontSize-2 font-bold leading-4;
+  }
+  .h4-large {
+    @apply text-fontSize-2 font-bold leading-4;
+  }
+  .h4-small {
+    @apply text-fontSize-1 font-bold leading-4;
+  }
+  .intro {
+    @apply text-fontSize-3 font-semibold leading-3;
+  }
+  .intro-small {
+    @apply text-fontSize-2 font-semibold leading-4;
+  }
+  .brand {
+    @apply text-fontSize-2 font-extrabold leading-3;
+  }
+  .paragraph {
+    @apply text-fontSize-2 font-regular leading-3;
+  }
+  .body-default {
+    @apply text-fontSize-1 font-regular leading-4;
+  }
+  .type-small {
+    @apply text-fontSize-0 font-regular leading-4;
   }
 }
