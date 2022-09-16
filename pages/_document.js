@@ -5,7 +5,9 @@ export default function Document() {
     <Html>
       <Head />
       <body>
-        <Main />
+        <div className="sm:container sm:mx-auto sm:pl-4 sm:pr-4">
+          <Main />
+        </div>
         <NextScript />
       </body>
     </Html>
