@@ -114,4 +114,11 @@
   .type-small {
     @apply text-fontSize-0 font-regular leading-4;
   }
+  .link-block {
+    @apply text-fontSize-1 font-regular leading-3 decoration-1 underline-offset-8 hover:decoration-text-primary hover:decoration-dotted;
+  }
+}
+
+#__next {
+  @apply xxl:container mx-auto xs:pl-4 xs:pr-4 xs:pt-8 md:pr-16 md:pl-16;
 }

@@ -8,8 +8,9 @@ module.exports = {
       xs: "20rem",
       sm: "23.438rem",
       md: "37.5rem", // 600px
-      lg: "48rem",
-      xl: "90rem"
+      lg: "48rem", // 768px
+      xl: "50rem", // 800px
+      xxl: "90rem"
     },
     colors: {
       /* Light Mode colours */
@@ -54,7 +55,7 @@ module.exports = {
       "fontSize-4": "2.441rem",
       "fontSize-3": "1.563rem",
       "fontSize-2": "1.25rem",
-      // "fontSize-1": "1rem",tok
+      "fontSize-1": "1rem",
       "fontSize-0": "0.875rem"
     },
     lineHeight: {
