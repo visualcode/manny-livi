@@ -10,6 +10,7 @@ module.exports = {
       md: "37.5rem", // 600px
       lg: "48rem", // 768px
       xl: "50rem", // 800px
+      "inter": "70rem", // 1120px
       xxl: "90rem"
     },
     colors: {
