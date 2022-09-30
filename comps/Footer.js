@@ -24,13 +24,13 @@ const Footer = () => {
       animate="visible"
     >
       <div id="social" className="flex flex-row gap-4">
-        <a className="link-block" href="">
+        <a className="link-block" href="mailto:emanuele.livi@gmail.com?subject=Request from mannylivi.com&body=">
           Get in touch
         </a>
-        <a className="link-block" href="">
+        <a className="link-block" href="https://twitter.com/MannyLivi">
           Twitter
         </a>
-        <a className="link-block" href="">
+        <a className="link-block" href="https://www.linkedin.com/in/liviemanuele/">
           Linkedin
         </a>
       </div>
