@@ -51,7 +51,7 @@ export default function IndexPage() {
         }}
       >
         <Image
-          src="/manny-liviportrait-picture.jpg"
+          src="/manny-livi-portrait-picture.jpg"
           alt="Manny Livi Portrait image"
           width={822}
           height={1247}
