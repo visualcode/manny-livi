@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:image" content="/img/index.png"></meta>
         {/* Open Graph / Twitter */}
         <meta property="twitter:card" content="summary_large_image"></meta>
-        <meta property="twitter:url" content="https://livi.design/"></meta>
+        <meta property="twitter:url" content="https://www.mannylivi.com/"></meta>
         <meta property="twitter:title" content=""></meta>
         <meta property="twitter:description" content=""></meta>
         <meta property="twitter:image" content="/img/index.png"></meta>
@@ -39,7 +39,7 @@ function MyApp({ Component, pageProps }) {
           sizes="180x180"
           href="../img/apple-touch-icon.png"
         ></link>
-        <link rel="canonical" href="https://livi.design/"></link>
+        <link rel="canonical" href="https://www.mannylivi.com/"></link>
         {/* Icons */}
         <link rel="icon" href="/favicon.ico" />
         <link
