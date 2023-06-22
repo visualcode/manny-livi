@@ -23,10 +23,10 @@ export default function IndexPage() {
         </h1>
         <div className="flex flex-col xs:gap-4 xl:gap-8">
           <h2 className="xs:intro-small md:intro">
-            I'm a Digital Product and Interaction Designer focusing on visual
-            design, UI patterns, micro-interactions and accessibility. I'm also
-            proficient in building and scaling complex design systems and
-            creating tokens, components, and documentation.
+            I'm a Digital Product and Interaction Designer with expertise in
+            visual design, UI patterns, micro-interactions, and accessibility.
+            Additionally, I possess strong skills in developing and scaling
+            complex design systems.
           </h2>
           <p className="xs:body-default xl:paragraph text-text-secondary dark:text-text-secondary-d">
             I’m currently UI lead for{" "}
