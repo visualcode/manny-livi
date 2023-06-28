@@ -29,7 +29,7 @@ export default function IndexPage() {
             complex design systems.
           </h2>
           <p className="xs:body-default xl:paragraph text-text-secondary dark:text-text-secondary-d">
-            I’m currently UI lead for{" "}
+            I’m currently Lead UI for{" "}
             <a
               className="link"
               href="https://www.8x8.com/products/contact-center/agent-workspace?locale=uk"
