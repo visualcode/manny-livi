@@ -21,7 +21,7 @@ export default function IndexPage() {
         <h1 className="xs:display-xsmall sm:display-small inter:display-large">
           Manny Livi: UI and digital product designer
         </h1>
-        <div className="flex flex-col xs:gap-4 xl:gap-8">
+        <div className="flex flex-col xs:gap-4 xl:gap-8 items-start">
           <h2 className="xs:intro-small md:intro">
             I'm a Digital Product and Interaction Designer with expertise in
             visual design, UI patterns, micro-interactions, and accessibility.
@@ -38,6 +38,7 @@ export default function IndexPage() {
             </a>
             , and I collaborate on the 8x8 Oxygen design system.
           </p>
+          <button className="border pl-5 pr-5 pt-1.5 pb-1.5">Get in touch</button>
         </div>
       </motion.header>
       <motion.section
