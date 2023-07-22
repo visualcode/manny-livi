@@ -26,7 +26,7 @@ const Footer = () => {
       <div id="social" className="flex flex-row gap-4">
         <a
           className="link-block"
-          href="mailto:hi@mannylivi.com?subject=Request from mannylivi.com&body="
+          href="mailto:hello@mannylivi.com?subject=Request from mannylivi.com&body="
         >
           Get in touch
         </a>
