@@ -8,6 +8,7 @@
     "post-update": "yarn upgrade --latest"
   },
   "dependencies": {
+    "@tokens-studio/sd-transforms": "^0.10.3",
     "autoprefixer": "10.4.2",
     "framer-motion": "^6.3.13",
     "next": "latest",
@@ -18,5 +19,8 @@
   },
   "license": "MIT",
   "keywords": [],
-  "description": "Sandbox for Livi Design website"
+  "description": "Sandbox for Livi Design website",
+  "devDependencies": {
+    "style-dictionary": "^3.8.0"
+  }
 }
