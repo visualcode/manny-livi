@@ -19,24 +19,15 @@ export default function IndexPage() {
         }}
       >
         <h1 className="xs:display-xsmall sm:display-small inter:display-large">
-          Manny Livi: UI and digital product designer
+          Scaling Digital Products with Design Systems That Deliver
         </h1>
         <div className="flex flex-col xs:gap-4 xl:gap-8">
           <h2 className="xs:intro-small md:intro">
-            I'm a Digital Product and Interaction Designer with expertise in
-            visual design, UI patterns, micro-interactions, and accessibility.
-            Additionally, I possess strong skills in developing and scaling
-            complex design systems.
+          Helping companies grow through strategic design, robust systems, and seamless collaboration.
           </h2>
           <p className="xs:body-default xl:paragraph text-text-secondary dark:text-text-secondary-d">
-            I’m currently Lead UI for{" "}
-            <a
-              className="link"
-              href="https://www.8x8.com/products/contact-center/agent-workspace?locale=uk"
-            >
-              8x8 Agent Workspace
-            </a>
-            , and I collaborate on the 8x8 Oxygen design system.
+            I design scalable systems and user experiences that drive innovation, consistency, and product growth.<br />
+            I lead the Oxygen Design System at <a href="https://8x8.com/">8x8</a>, partnering with every SaaS product team to ship cohesive, high-performing experiences.
           </p>
         </div>
       </motion.header>
