@@ -30,19 +30,19 @@ const Footer = () => {
         >
           Get in touch
         </a>
-        <a className="link-block" href="https://twitter.com/MannyLivi">
-          Twitter
-        </a>
         <a
           className="link-block"
           href="https://www.linkedin.com/in/liviemanuele/"
         >
           Linkedin
         </a>
+        <a className="link-block" href="https://x.com/MannyLivi">
+          X
+        </a>
       </div>
       <div id="credit">
         <p className="type-small text-text-secondary dark:text-text-secondary-d">
-          2022 © manny livi. This site was designed in Figma, Next Js,
+          2025 &copy; manny livi. This site was designed in Figma, Next Js,
           Tailwindcss & deployed via Vercel.
         </p>
       </div>
