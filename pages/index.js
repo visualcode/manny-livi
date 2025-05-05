@@ -19,7 +19,7 @@ export default function IndexPage() {
         }}
       >
         <h1 className="xs:display-xsmall sm:display-small inter:display-large">
-          Scaling Digital Products with Design Systems That Deliver
+          Scaling digital products with Design Systems that deliver
         </h1>
         <div className="flex flex-col xs:gap-4 xl:gap-8">
           <h2 className="xs:intro-small md:intro">
