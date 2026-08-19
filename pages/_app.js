@@ -1,46 +1,57 @@
-// import App from 'next/app'
+import Head from "next/head";
 import Layout from "../comps/Layout";
 import "../styles/index.css";
-import Head from "next/head";
-import Image from "next/image";
+
+const SITE_URL = "https://www.mannylivi.com";
+const SITE_TITLE =
+  "Manny Livi - UI Designer, Visual Designer and Design System Specialist";
+const SITE_DESCRIPTION =
+  "UI Designer, Visual Designer and Design System Strategist";
+const OG_IMAGE = `${SITE_URL}/manny-livi-portrait-picture.jpg`;
+
+const personJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Manny Livi",
+  jobTitle: "Design System Specialist",
+  description: SITE_DESCRIPTION,
+  url: SITE_URL,
+  email: "hello@mannylivi.com",
+  image: OG_IMAGE,
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "London",
+    addressCountry: "GB"
+  },
+  sameAs: [
+    "https://www.linkedin.com/in/liviemanuele/",
+    "https://x.com/MannyLivi"
+  ]
+};
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>
-          Manny Livi - UI Designer, Visual Designer and Design System Specialist
-        </title>
-        <meta
-          name="description"
-          content="UI Designer, Visual Designer and Design System Strategist"
-        />
-        {/* Open Graph / Facebook */}
-        <meta property="og:type" content="website"></meta>
-        <meta property="og:url" content="https://www.mannylivi.com/"></meta>
-        <meta
-          property="og:title"
-          content="Manny Livi - UI Designer, Visual Designer and Design System Strategist"
-        />
-        <meta
-          property="og:description"
-          content="UI Designer, Visual Designer and Design System Strategist"
-        ></meta>
-        <meta property="og:image" content="/img/index.png"></meta>
-        {/* Open Graph / Twitter */}
-        <meta property="twitter:card" content="summary_large_image"></meta>
-        <meta property="twitter:url" content="https://www.mannylivi.com/"></meta>
-        <meta property="twitter:title" content=""></meta>
-        <meta property="twitter:description" content=""></meta>
-        <meta property="twitter:image" content="/img/index.png"></meta>
-        {/* Apple assett */}
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="../img/apple-touch-icon.png"
-        ></link>
-        <link rel="canonical" href="https://www.mannylivi.com/"></link>
-        {/* Icons */}
+        <title>{SITE_TITLE}</title>
+        <meta name="description" content={SITE_DESCRIPTION} />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href={SITE_URL} />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={`${SITE_URL}/`} />
+        <meta property="og:title" content={SITE_TITLE} />
+        <meta property="og:description" content={SITE_DESCRIPTION} />
+        <meta property="og:image" content={OG_IMAGE} />
+        <meta property="og:locale" content="en_GB" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content={`${SITE_URL}/`} />
+        <meta name="twitter:title" content={SITE_TITLE} />
+        <meta name="twitter:description" content={SITE_DESCRIPTION} />
+        <meta name="twitter:image" content={OG_IMAGE} />
+        <meta name="twitter:site" content="@MannyLivi" />
+
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="apple-touch-icon"
@@ -60,14 +71,13 @@ function MyApp({ Component, pageProps }) {
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
-        <link
-          rel="mask-icon"
-          href="../img/safari-pinned-tab.svg"
-          color="#5bbad5"
-        ></link>
-        <meta name="msapplication-TileColor" content="#603cba"></meta>
-        <meta name="theme-color" content="#ffffff"></meta>
-        <script async data-api="/_hive" src="/bee.js"></script>
+        <meta name="msapplication-TileColor" content="#603cba" />
+        <meta name="theme-color" content="#ffffff" />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+        />
       </Head>
       <Layout>
         <Component {...pageProps} />
@@ -75,17 +85,5 @@ function MyApp({ Component, pageProps }) {
     </>
   );
 }
-
-// Only uncomment this method if you have blocking data requirements for
-// every single page in your application. This disables the ability to
-// perform automatic static optimization, causing every page in your app to
-// be server-side rendered.
-//
-// MyApp.getInitialProps = async (appContext) => {
-//   // calls page's `getInitialProps` and fills `appProps.pageProps`
-//   const appProps = await App.getInitialProps(appContext);
-//
-//   return { ...appProps }
-// }
 
 export default MyApp;

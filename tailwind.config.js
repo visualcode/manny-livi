@@ -1,20 +1,18 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: {
-    enabled: true,
-    content: ["./pages/**/*.js", "./comps/**/*.js"]
-  },
+  content: ["./pages/**/*.{js,jsx}", "./comps/**/*.{js,jsx}"],
+  darkMode: "media",
   theme: {
     screens: {
       xs: "20rem",
       sm: "23.438rem",
-      md: "37.5rem", // 600px
-      lg: "48rem", // 768px
-      xl: "50rem", // 800px
-      "inter": "70rem", // 1120px
+      md: "37.5rem",
+      lg: "48rem",
+      xl: "50rem",
+      inter: "70rem",
       xxl: "90rem"
     },
     colors: {
-      /* Light Mode colours */
       "main-bg": "#FFFFFF",
       "text-primary": "#222222",
       "text-secondary": "#737373",
@@ -22,7 +20,6 @@ module.exports = {
       "link-rest": "#737373",
       "link-hover": "#D4D4D4",
       "border-divider": "#D4D4D4",
-      /* Dark Mode colours */
       "main-bg-d": "#212121",
       "text-primary-d": "#FFFFFF",
       "text-secondary-d": "#ADADAD",
@@ -47,8 +44,6 @@ module.exports = {
         "arial",
         "sans-serif"
       ]
-      // sans: "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif"
-      // serif: "-apple-system-ui-serif, ui-serif, 'Georgia', serif",
     },
     fontSize: {
       "fontSize-6": "3.815rem",
@@ -77,8 +72,5 @@ module.exports = {
       0: "0"
     }
   },
-  plugins: [
-    require("tailwindcss")("./tailwind.config.js"),
-    require("autoprefixer")
-  ]
+  plugins: []
 };

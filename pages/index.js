@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
@@ -23,11 +22,23 @@ export default function IndexPage() {
         </h1>
         <div className="flex flex-col xs:gap-4 xl:gap-8">
           <h2 className="xs:intro-small md:intro">
-          Helping companies grow through strategic design, robust systems, and seamless collaboration.
+            Helping companies grow through strategic design, robust systems, and
+            seamless collaboration.
           </h2>
           <p className="xs:body-default xl:paragraph text-text-secondary dark:text-text-secondary-d">
-            I design scalable systems and user experiences that drive innovation, consistency, and product growth.<br />
-            I lead the Oxygen Design System at <a href="https://8x8.com/">8x8</a>, partnering with every SaaS product team to ship cohesive, high-performing experiences.
+            I design scalable systems and user experiences that drive
+            innovation, consistency, and product growth.
+            <br />
+            I lead the Oxygen Design System at{" "}
+            <a
+              href="https://8x8.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              8x8
+            </a>
+            , partnering with every SaaS product team to ship cohesive,
+            high-performing experiences.
           </p>
         </div>
       </motion.header>
@@ -43,12 +54,12 @@ export default function IndexPage() {
       >
         <Image
           src="/manny-livi-portrait-picture.jpg"
-          alt="Manny Livi Portrait image"
+          alt="Portrait of Manny Livi"
           width={822}
           height={1247}
-          layout="responsive"
-          objectFit="cover"
-          priority="true"
+          sizes="(min-width: 50rem) 50vw, 100vw"
+          className="h-auto w-full object-cover"
+          priority
         />
       </motion.section>
     </main>

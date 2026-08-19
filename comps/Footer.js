@@ -18,7 +18,7 @@ const elementAppear = {
 const Footer = () => {
   return (
     <motion.footer
-      class="lg:pt-16 xs:pt-8 flex flex-col gap-4 xs:pb-8 md:pb-16"
+      className="lg:pt-16 xs:pt-8 flex flex-col gap-4 xs:pb-8 md:pb-16"
       variants={elementAppear}
       initial="hidden"
       animate="visible"
@@ -26,24 +26,31 @@ const Footer = () => {
       <div id="social" className="flex flex-row gap-4">
         <a
           className="link-block"
-          href="mailto:hello@mannylivi.com?subject=Request from mannylivi.com&body="
+          href="mailto:hello@mannylivi.com?subject=Request from mannylivi.com"
         >
           Get in touch
         </a>
         <a
           className="link-block"
           href="https://www.linkedin.com/in/liviemanuele/"
+          rel="noopener noreferrer"
+          target="_blank"
         >
-          Linkedin
+          LinkedIn
         </a>
-        <a className="link-block" href="https://x.com/MannyLivi">
+        <a
+          className="link-block"
+          href="https://x.com/MannyLivi"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           X
         </a>
       </div>
       <div id="credit">
         <p className="type-small text-text-secondary dark:text-text-secondary-d">
-          2025 &copy; manny livi. This site was designed in Figma, Next Js,
-          Tailwindcss & deployed via Vercel.
+          2026 &copy; Manny Livi. This site was designed in Figma, Next.js,
+          Tailwind CSS and deployed via Vercel.
         </p>
       </div>
     </motion.footer>
