@@ -36,7 +36,8 @@ const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   images: {
-    formats: ["image/avif", "image/webp"]
+    // AVIF temporarily disabled: GHSA-2xp9-vwfh-vxw4 (libheif/sharp RCE via Image Optimization)
+    formats: ["image/webp"]
   },
   async headers() {
     return [
