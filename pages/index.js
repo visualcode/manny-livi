@@ -4,10 +4,10 @@ import Image from "next/image";
 export default function IndexPage() {
   return (
     <main
+      id="main-content"
       className="grid xs:gap-y-8 lg:grid-cols-[auto] xl:grid-cols-2 lg:gap-x-8 inter:gap-x-16 xl:justify-items-center"
-      aria-label="Main content"
     >
-      <motion.header
+      <motion.div
         className="flex flex-col xs:gap-8 lg:col-start-2 lg:pt-0 lg:pb-0 xl:gap-16 xxl:pt-16 xxl:pb-16 xl:justify-center"
         initial={{ opacity: 0, y: 80 }}
         animate={{ opacity: 1, y: 0 }}
@@ -21,10 +21,10 @@ export default function IndexPage() {
           Scaling digital products with Design Systems that deliver
         </h1>
         <div className="flex flex-col xs:gap-4 xl:gap-8">
-          <h2 className="xs:intro-small md:intro">
+          <p className="xs:intro-small md:intro">
             Helping companies grow through strategic design, robust systems, and
             seamless collaboration.
-          </h2>
+          </p>
           <p className="xs:body-default xl:paragraph text-text-secondary dark:text-text-secondary-d">
             I design scalable systems and user experiences that drive
             innovation, consistency, and product growth.
@@ -36,13 +36,14 @@ export default function IndexPage() {
               target="_blank"
             >
               8x8
+              <span className="sr-only"> (opens in a new tab)</span>
             </a>
             , partnering with every SaaS product team to ship cohesive,
             high-performing experiences.
           </p>
         </div>
-      </motion.header>
-      <motion.section
+      </motion.div>
+      <motion.div
         className="lg:col-start-1 lg:row-start-1 lg:w-72 lg:h-auto xl:w-full xl:h-full"
         initial={{ opacity: 0, y: -80 }}
         animate={{ opacity: 1, y: 0 }}
@@ -61,7 +62,7 @@ export default function IndexPage() {
           className="h-auto w-full object-cover"
           priority
         />
-      </motion.section>
+      </motion.div>
     </main>
   );
 }

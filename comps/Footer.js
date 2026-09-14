@@ -23,7 +23,7 @@ const Footer = () => {
       initial="hidden"
       animate="visible"
     >
-      <div id="social" className="flex flex-row gap-4">
+      <nav id="social" aria-label="Social and contact" className="flex flex-row gap-4">
         <a
           className="link-block"
           href="mailto:hello@mannylivi.com?subject=Request from mannylivi.com"
@@ -37,6 +37,7 @@ const Footer = () => {
           target="_blank"
         >
           LinkedIn
+          <span className="sr-only"> (opens in a new tab)</span>
         </a>
         <a
           className="link-block"
@@ -45,8 +46,9 @@ const Footer = () => {
           target="_blank"
         >
           X
+          <span className="sr-only"> (opens in a new tab)</span>
         </a>
-      </div>
+      </nav>
       <div id="credit">
         <p className="type-small text-text-secondary dark:text-text-secondary-d">
           2026 &copy; Manny Livi. This site was designed in Figma, Next.js,

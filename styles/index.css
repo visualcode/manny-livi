@@ -43,15 +43,72 @@
   html {
     @apply bg-main-bg text-text-primary dark:bg-main-bg-d dark:text-text-primary-d;
   }
+
+  body {
+    @apply antialiased;
+  }
+
   a {
     @apply underline decoration-1 underline-offset-8;
   }
+
   a:hover {
     @apply decoration-dashed;
+  }
+
+  a:focus-visible {
+    @apply outline outline-2 outline-offset-4 outline-text-primary dark:outline-text-primary-d;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+      scroll-behavior: auto;
+    }
   }
 }
 
 @layer components {
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+
+  .skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    z-index: 50;
+    padding: 0.75rem 1rem;
+    background: #ffffff;
+    color: #222222;
+    text-decoration: none;
+  }
+
+  .skip-link:focus {
+    left: 1rem;
+    top: 1rem;
+    outline: 2px solid #222222;
+    outline-offset: 2px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .skip-link {
+      background: #212121;
+      color: #ffffff;
+    }
+
+    .skip-link:focus {
+      outline-color: #ffffff;
+    }
+  }
+
   .display-large {
     @apply text-fontSize-6 font-extrabold leading-0;
   }
@@ -60,30 +117,6 @@
   }
   .display-xsmall {
     @apply text-fontSize-4 font-extrabold leading-2;
-  }
-  .h1-large {
-    @apply text-fontSize-5 font-bold leading-1;
-  }
-  .h1-small {
-    @apply text-fontSize-4 font-bold leading-2;
-  }
-  .h2-large {
-    @apply text-fontSize-4 font-bold leading-2;
-  }
-  .h2-small {
-    @apply text-fontSize-3 font-bold leading-3;
-  }
-  .h3-large {
-    @apply text-fontSize-3 font-bold leading-3;
-  }
-  .h3-small {
-    @apply text-fontSize-2 font-bold leading-4;
-  }
-  .h4-large {
-    @apply text-fontSize-2 font-bold leading-4;
-  }
-  .h4-small {
-    @apply text-fontSize-1 font-bold leading-4;
   }
   .intro {
     @apply text-fontSize-3 font-semibold leading-3;
@@ -109,5 +142,6 @@
 }
 
 #__next {
-  @apply xxl:container mx-auto xs:pl-4 xs:pr-4 md:pr-16 md:pl-16 md:flex md:flex-col md:justify-between md:h-screen;
+  @apply mx-auto w-full xs:px-4 md:px-16 md:flex md:flex-col md:justify-between md:min-h-screen;
+  max-width: 90rem;
 }

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { motion } from "framer-motion";
 
 const elementAppear = {
@@ -24,12 +25,14 @@ const Header = () => {
       animate="visible"
     >
       <div id="brand-space">
-        <div className="brand text-text-primary dark:text-text-primary-d">
-          Manny Livi
-        </div>
-        <div className="type-small text-text-secondary dark:text-text-secondary-d">
+        <p className="brand text-text-primary dark:text-text-primary-d">
+          <Link href="/" className="text-inherit no-underline hover:no-underline">
+            Manny Livi
+          </Link>
+        </p>
+        <p className="type-small text-text-secondary dark:text-text-secondary-d">
           London, UK / Remote
-        </div>
+        </p>
       </div>
     </motion.header>
   );

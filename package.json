@@ -1,21 +1,24 @@
 {
-  "name": "livi-design-sandbox",
+  "name": "manny-livi",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "autoprefixer": "10.4.23",
+    "autoprefixer": "10.6.0",
     "framer-motion": "11.18.2",
     "next": "16.3.5",
-    "postcss": "^8.5.26",
+    "postcss": "8.5.28",
     "react": "19.2.8",
     "react-dom": "19.2.8",
     "tailwindcss": "3.4.19"
   },
+  "engines": {
+    "node": ">=20.9.0"
+  },
   "license": "MIT",
-  "keywords": [],
-  "description": "Sandbox for Livi Design website"
+  "description": "Personal site for Manny Livi — UI designer and design system specialist"
 }

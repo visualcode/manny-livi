@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { MotionConfig } from "framer-motion";
 import Layout from "../comps/Layout";
 import "../styles/index.css";
 
@@ -31,7 +32,7 @@ const personJsonLd = {
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
+    <MotionConfig reducedMotion="user">
       <Head>
         <title>{SITE_TITLE}</title>
         <meta name="description" content={SITE_DESCRIPTION} />
@@ -39,10 +40,14 @@ function MyApp({ Component, pageProps }) {
         <link rel="canonical" href={SITE_URL} />
 
         <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Manny Livi" />
         <meta property="og:url" content={`${SITE_URL}/`} />
         <meta property="og:title" content={SITE_TITLE} />
         <meta property="og:description" content={SITE_DESCRIPTION} />
         <meta property="og:image" content={OG_IMAGE} />
+        <meta property="og:image:width" content="822" />
+        <meta property="og:image:height" content="1247" />
+        <meta property="og:image:alt" content="Portrait of Manny Livi" />
         <meta property="og:locale" content="en_GB" />
 
         <meta name="twitter:card" content="summary_large_image" />
@@ -50,6 +55,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="twitter:title" content={SITE_TITLE} />
         <meta name="twitter:description" content={SITE_DESCRIPTION} />
         <meta name="twitter:image" content={OG_IMAGE} />
+        <meta name="twitter:image:alt" content="Portrait of Manny Livi" />
         <meta name="twitter:site" content="@MannyLivi" />
 
         <link rel="icon" href="/favicon.ico" />
@@ -73,6 +79,7 @@ function MyApp({ Component, pageProps }) {
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="msapplication-TileColor" content="#603cba" />
         <meta name="theme-color" content="#ffffff" />
+        <meta name="color-scheme" content="light dark" />
 
         <script
           type="application/ld+json"
@@ -82,7 +89,7 @@ function MyApp({ Component, pageProps }) {
       <Layout>
         <Component {...pageProps} />
       </Layout>
-    </>
+    </MotionConfig>
   );
 }
 
