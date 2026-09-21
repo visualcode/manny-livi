@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { MotionConfig } from "framer-motion";
+import { Analytics } from "@vercel/analytics/next";
 import Layout from "../comps/Layout";
 import "../styles/index.css";
 
@@ -89,6 +90,7 @@ function MyApp({ Component, pageProps }) {
       <Layout>
         <Component {...pageProps} />
       </Layout>
+      <Analytics />
     </MotionConfig>
   );
 }
