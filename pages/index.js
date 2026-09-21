@@ -38,9 +38,8 @@ export default function IndexPage() {
               starting from the right problem.
             </li>
             <li>
-              <strong className="font-semibold">AI-assisted building.</strong>{" "}
-              When a gap needs more than a spec, I build the fix myself, then
-              judge whether it&apos;s actually good.
+              <strong className="font-semibold">AI-assisted building.</strong> I
+              use AI to build tools that help me solve design problems.
             </li>
           </ul>
           <p className="xs:body-default xl:paragraph text-text-primary dark:text-text-primary-d">
