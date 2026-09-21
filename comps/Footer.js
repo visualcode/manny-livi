@@ -23,16 +23,10 @@ const Footer = () => {
       initial="hidden"
       animate="visible"
     >
-      <nav id="social" aria-label="Social and contact" className="flex flex-row gap-4">
+      <nav id="social" aria-label="Social" className="flex flex-row gap-4">
         <a
           className="link-block"
-          href="mailto:hello@mannylivi.com?subject=Request from mannylivi.com"
-        >
-          Get in touch
-        </a>
-        <a
-          className="link-block"
-          href="https://www.linkedin.com/in/liviemanuele/"
+          href="https://www.linkedin.com/in/mannylivi/"
           rel="noopener noreferrer"
           target="_blank"
         >

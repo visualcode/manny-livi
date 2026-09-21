@@ -1,6 +1,6 @@
 # Manny Livi
 
-Personal site for [Manny Livi](https://www.mannylivi.com/) — UI designer, visual designer, and design system specialist.
+Personal site for [Manny Livi](https://www.mannylivi.com/) — Design Systems Architect and Product Designer.
 
 ## Development
 
