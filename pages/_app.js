@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { MotionConfig } from "framer-motion";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import Layout from "../comps/Layout";
 import "../styles/index.css";
 
@@ -91,6 +92,7 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
       </Layout>
       <Analytics />
+      <SpeedInsights />
     </MotionConfig>
   );
 }
