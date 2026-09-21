@@ -26,7 +26,7 @@ export default function IndexPage() {
             eighteen years designing human-centred digital products and the last
             ten in design systems.
           </p>
-          <ul className="m-0 flex list-none flex-col p-0 xs:gap-4 xl:gap-8 xs:body-default xl:paragraph text-text-secondary dark:text-text-secondary-d">
+          <ul className="m-0 flex list-none flex-col p-0 xs:gap-4 xl:gap-8 xs:body-default xl:paragraph text-text-primary dark:text-text-primary-d">
             <li>
               <strong className="font-semibold">Design systems.</strong> Tokens,
               components, guidelines and governance your designers and engineers
@@ -43,7 +43,7 @@ export default function IndexPage() {
               judge whether it&apos;s actually good.
             </li>
           </ul>
-          <p className="xs:body-default xl:paragraph text-text-secondary dark:text-text-secondary-d">
+          <p className="xs:body-default xl:paragraph text-text-primary dark:text-text-primary-d">
             Open to full-time, fractional, and consulting work in design systems
             or product design.
           </p>
