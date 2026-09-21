@@ -18,28 +18,34 @@ export default function IndexPage() {
         }}
       >
         <h1 className="xs:display-xsmall sm:display-small inter:display-large">
-          Scaling digital products with Design Systems that deliver
+          AI makes things fast. Design judgement makes them good.
         </h1>
         <div className="flex flex-col xs:gap-4 xl:gap-8">
           <p className="xs:intro-small md:intro">
-            Helping companies grow through strategic design, robust systems, and
-            seamless collaboration.
+            I&apos;m Manny, a Design Systems Architect and Product Designer, with
+            eighteen years designing human-centred digital products and the last
+            ten in design systems.
           </p>
+          <ul className="m-0 flex list-none flex-col p-0 xs:gap-4 xl:gap-8 xs:body-default xl:paragraph text-text-secondary dark:text-text-secondary-d">
+            <li>
+              <strong className="font-semibold">Design systems.</strong> Tokens,
+              components, guidelines and governance your designers and engineers
+              actually use.
+            </li>
+            <li>
+              <strong className="font-semibold">Product design.</strong> Complex,
+              data-heavy interfaces taken from discovery to shipped product,
+              starting from the right problem.
+            </li>
+            <li>
+              <strong className="font-semibold">AI-assisted building.</strong>{" "}
+              When a gap needs more than a spec, I build the fix myself, then
+              judge whether it&apos;s actually good.
+            </li>
+          </ul>
           <p className="xs:body-default xl:paragraph text-text-secondary dark:text-text-secondary-d">
-            I design scalable systems and user experiences that drive
-            innovation, consistency, and product growth.
-            <br />
-            I lead the Oxygen Design System at{" "}
-            <a
-              href="https://8x8.com/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              8x8
-              <span className="sr-only"> (opens in a new tab)</span>
-            </a>
-            , partnering with every SaaS product team to ship cohesive,
-            high-performing experiences.
+            Open to full-time, fractional, and consulting work in design systems
+            or product design.
           </p>
         </div>
       </motion.div>

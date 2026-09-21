@@ -7,16 +7,16 @@ import "../styles/index.css";
 
 const SITE_URL = "https://www.mannylivi.com";
 const SITE_TITLE =
-  "Manny Livi - UI Designer, Visual Designer and Design System Specialist";
+  "Manny Livi – Design Systems Architect & Product Designer";
 const SITE_DESCRIPTION =
-  "UI Designer, Visual Designer and Design System Strategist";
+  "Design systems and product design for teams that want work that's actually good, not just fast. Open to full-time, fractional and consulting roles.";
 const OG_IMAGE = `${SITE_URL}/manny-livi-portrait-picture.jpg`;
 
 const personJsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Manny Livi",
-  jobTitle: "Design System Specialist",
+  jobTitle: "Design Systems Architect & Product Designer",
   description: SITE_DESCRIPTION,
   url: SITE_URL,
   email: "hello@mannylivi.com",
@@ -27,7 +27,7 @@ const personJsonLd = {
     addressCountry: "GB"
   },
   sameAs: [
-    "https://www.linkedin.com/in/liviemanuele/",
+    "https://www.linkedin.com/in/mannylivi/",
     "https://x.com/MannyLivi"
   ]
 };
