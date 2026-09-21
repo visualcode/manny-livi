@@ -49,7 +49,7 @@ export default function IndexPage() {
           </p>
           <a
             className="link-block"
-            href="mailto:hello@mannylivi.com?subject=Request from mannylivi.com"
+            href="mailto:emanuele.livi@gmail.com?subject=Request from mannylivi.com"
           >
             Let&apos;s talk
           </a>
