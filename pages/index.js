@@ -47,7 +47,7 @@ export default function IndexPage() {
             or product design.
           </p>
           <a
-            className="link-block"
+            className="link-block xs:leading-4 xl:text-fontSize-2 xl:leading-3"
             href="mailto:emanuele.livi@gmail.com?subject=Request from mannylivi.com"
           >
             Let&apos;s talk
