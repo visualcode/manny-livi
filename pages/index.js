@@ -47,6 +47,12 @@ export default function IndexPage() {
             Open to full-time, fractional, and consulting work in design systems
             or product design.
           </p>
+          <a
+            className="link-block"
+            href="mailto:hello@mannylivi.com?subject=Request from mannylivi.com"
+          >
+            Let&apos;s talk
+          </a>
         </div>
       </motion.div>
       <motion.div
