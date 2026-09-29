@@ -9,7 +9,7 @@ const SITE_URL = "https://www.mannylivi.com";
 const SITE_TITLE =
   "Manny Livi – Design Systems Architect & Product Designer";
 const SITE_DESCRIPTION =
-  "Design systems and product design for teams that want work that's actually good, not just fast. Open to full-time, fractional and consulting roles.";
+  "Design Systems Architect and Product Designer. Design tools and agentic workflows built with AI. Open to full-time, fractional and consulting work.";
 const OG_IMAGE = `${SITE_URL}/manny-livi-portrait-picture.jpg`;
 
 const personJsonLd = {

@@ -31,7 +31,7 @@ const Header = () => {
           </Link>
         </p>
         <p className="type-small text-text-secondary dark:text-text-secondary-d">
-          London, UK / Remote
+          Design Systems Architect &amp; Product Designer · London, UK / Remote
         </p>
       </div>
     </motion.header>

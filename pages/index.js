@@ -5,7 +5,7 @@ export default function IndexPage() {
   return (
     <main
       id="main-content"
-      className="grid xs:gap-y-8 lg:grid-cols-[auto] xl:grid-cols-2 lg:gap-x-8 inter:gap-x-16 xl:justify-items-center"
+      className="grid xs:gap-y-8 lg:grid-cols-[auto] xl:grid-cols-2 xl:items-center lg:gap-x-8 inter:gap-x-16 xl:justify-items-center"
     >
       <motion.div
         className="flex flex-col xs:gap-8 lg:col-start-2 lg:pt-0 lg:pb-0 xl:gap-16 xxl:pt-16 xxl:pb-16 xl:justify-center"
@@ -24,7 +24,8 @@ export default function IndexPage() {
           <p className="xs:intro-small md:intro">
             I&apos;m Manny, a Design Systems Architect and Product Designer, with
             eighteen years designing human-centred digital products and the last
-            ten in design systems.
+            ten in design systems. I work where visual design, systems thinking
+            and code meet.
           </p>
           <ul className="m-0 flex list-none flex-col p-0 xs:gap-4 xl:gap-8 xs:body-default xl:paragraph text-text-primary dark:text-text-primary-d">
             <li>
@@ -38,13 +39,14 @@ export default function IndexPage() {
               starting from the right problem.
             </li>
             <li>
-              <strong className="font-semibold">AI-assisted building.</strong> I
-              use AI to build tools that help me solve design problems.
+              <strong className="font-semibold">AI-assisted building.</strong> Tools
+              and agentic workflows, built with AI, that solve real design and
+              productivity problems.
             </li>
           </ul>
           <p className="xs:body-default xl:paragraph text-text-primary dark:text-text-primary-d">
-            Open to full-time, fractional, and consulting work in design systems
-            or product design.
+            Design system and product drifting apart? That&apos;s the problem I
+            fix.
           </p>
           <a
             className="link-block xs:leading-4 xl:text-fontSize-2 xl:leading-3"
@@ -55,7 +57,7 @@ export default function IndexPage() {
         </div>
       </motion.div>
       <motion.div
-        className="lg:col-start-1 lg:row-start-1 lg:w-72 lg:h-auto xl:w-full xl:h-full"
+        className="lg:col-start-1 lg:row-start-1 lg:w-72 lg:h-auto xl:w-full xl:h-auto"
         initial={{ opacity: 0, y: -80 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
