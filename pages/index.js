@@ -24,7 +24,8 @@ export default function IndexPage() {
           <p className="xs:intro-small md:intro">
             I&apos;m Manny, a Design Systems Architect and Product Designer, with
             eighteen years designing human-centred digital products and the last
-            ten in design systems.
+            ten in design systems. I work where visual design, systems thinking
+            and code meet.
           </p>
           <ul className="m-0 flex list-none flex-col p-0 xs:gap-4 xl:gap-8 xs:body-default xl:paragraph text-text-primary dark:text-text-primary-d">
             <li>
@@ -38,13 +39,15 @@ export default function IndexPage() {
               starting from the right problem.
             </li>
             <li>
-              <strong className="font-semibold">AI-assisted building.</strong> I
-              use AI to build tools that help me solve design problems.
+              <strong className="font-semibold">AI-assisted building.</strong> Tools
+              and agentic workflows, built with AI, that solve real design and
+              productivity problems.
             </li>
           </ul>
           <p className="xs:body-default xl:paragraph text-text-primary dark:text-text-primary-d">
-            Open to full-time, fractional, and consulting work in design systems
-            or product design.
+            Open to full-time, fractional, or consulting work right now. If your
+            design system and your product keep drifting apart, that&apos;s the
+            problem I fix, with a tool or a workflow, whichever it takes.
           </p>
           <a
             className="link-block xs:leading-4 xl:text-fontSize-2 xl:leading-3"
