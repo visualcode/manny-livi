@@ -45,9 +45,8 @@ export default function IndexPage() {
             </li>
           </ul>
           <p className="xs:body-default xl:paragraph text-text-primary dark:text-text-primary-d">
-            Open to full-time, fractional, or consulting work right now. If your
-            design system and your product keep drifting apart, that&apos;s the
-            problem I fix, with a tool or a workflow, whichever it takes.
+            Design system and product drifting apart? That&apos;s the problem I
+            fix.
           </p>
           <a
             className="link-block xs:leading-4 xl:text-fontSize-2 xl:leading-3"
