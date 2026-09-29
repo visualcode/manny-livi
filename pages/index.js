@@ -5,7 +5,7 @@ export default function IndexPage() {
   return (
     <main
       id="main-content"
-      className="grid xs:gap-y-8 lg:grid-cols-[auto] xl:grid-cols-2 lg:gap-x-8 inter:gap-x-16 xl:justify-items-center"
+      className="grid xs:gap-y-8 lg:grid-cols-[auto] xl:grid-cols-2 xl:items-center lg:gap-x-8 inter:gap-x-16 xl:justify-items-center"
     >
       <motion.div
         className="flex flex-col xs:gap-8 lg:col-start-2 lg:pt-0 lg:pb-0 xl:gap-16 xxl:pt-16 xxl:pb-16 xl:justify-center"
@@ -57,7 +57,7 @@ export default function IndexPage() {
         </div>
       </motion.div>
       <motion.div
-        className="lg:col-start-1 lg:row-start-1 lg:w-72 lg:h-auto xl:w-full xl:h-full"
+        className="lg:col-start-1 lg:row-start-1 lg:w-72 lg:h-auto xl:w-full xl:h-auto"
         initial={{ opacity: 0, y: -80 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
